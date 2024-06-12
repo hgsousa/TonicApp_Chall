@@ -1,16 +1,11 @@
 from bs4 import BeautifulSoup
 import requests
-import json
 from datetime import datetime, timedelta
 import openai
-import re
 
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
 
-openai.api_key = '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'
-#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
+openai.api_key = 'openai_api_key'
+
 
 def fetch_articles(url):
     response = requests.get(url)
