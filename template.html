@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Healthcare News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .article {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .article:last-child {
+            border-bottom: none;
+        }
+        .article-title {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        .article-date {
+            color: #888;
+            font-size: 0.9em;
+        }
+        .article-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .article-link:hover {
+            text-decoration: underline;
+        }
+        .analysis {
+            margin-top: 10px;
+            font-size: 1em;
+        }
+        .analysis p {
+            margin: 0;
+            line-height: 1.5;
+        }
+        .tonic-app-news {
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+        }
+        .tonic-app-news h2 {
+            font-size: 1.5em;
+        }
+        .tonic-app-news a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .tonic-app-news a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Weekly Healthcare News</h1>
+        {articles}
+    </div>
+</body>
+</html>
